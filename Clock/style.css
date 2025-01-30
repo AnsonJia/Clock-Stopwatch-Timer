@@ -89,9 +89,9 @@ body{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #clock{
-        font-size: 3rem;
+        font-size: 3.5rem;
         width: 95%;
         border-radius: 20px;
     }
