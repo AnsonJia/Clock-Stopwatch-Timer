@@ -25,11 +25,11 @@ setInterval(updateClock, 1000);
 
 
 function toClock() {
-    window.location.href = '/';
+    window.location.href = '/Clock-Stopwatch-Timer/';
 }
 
 function toStopwatch() {
-    window.location.href = '/Stopwatch/';
+    window.location.href = '/Clock-Stopwatch-Timer/Stopwatch/';
 }
 
 function openNav() {
