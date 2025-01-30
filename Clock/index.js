@@ -53,5 +53,5 @@ function openNav() {
     } else {
         openNav();
     }
-    isNavOpen = !isNavOpen; // Toggle the state
+    isNavOpen = !isNavOpen; 
 }

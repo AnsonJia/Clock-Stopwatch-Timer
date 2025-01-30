@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(background.jpg);
+    background-image: url(../Menu/background.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@ body{
 
 @font-face {
     font-family: 'digital';
-    src: url('digital-7\ \(mono\ italic\).ttf') format('truetype'); /* Specify your font format here */
+    src: url('digital-7\ \(mono\ italic\).ttf') format('truetype'); 
 }
 #clock{
     font-family: 'digital';
@@ -100,7 +100,7 @@ button{
     width: 70px;
     transition: all 0.5s ease; 
     position: absolute;
-    top: 2%;
+    top: 1%;
     left: 2%;
     background-color: rgba(211, 211, 211, 0.2);
 }
@@ -137,12 +137,12 @@ button:hover {
 
   
 .icon-bar a:hover {
-    background-color: #00000062; /* Add a hover color */
+    background-color: #00000062; 
     transform: scale(1.03);
     
 }
   
 .active {
-    background-color: #29292980; /* Add an active/current color */
+    background-color: #29292980; 
 }
 
