@@ -89,16 +89,16 @@ body{
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     #clock{
         font-size: 3rem;
-        width: 90%;
+        width: 95%;
         border-radius: 20px;
     }
     #date{
         font-size: 1.5rem;
         border-radius: 20px;
-        width: 70%;
+        width: 80%;
     }
 }
 
