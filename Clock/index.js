@@ -25,7 +25,7 @@ setInterval(updateClock, 1000);
 
 
 function toClock() {
-    window.location.href = 'https://ansonjia.github.io/Clock-Stopwatch-Timer';
+    window.location.href = 'https://ansonjia.github.io/Clock-Stopwatch-Timer/';
 }
 
 function toStopwatch() {
