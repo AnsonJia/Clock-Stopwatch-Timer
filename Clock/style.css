@@ -20,11 +20,12 @@ body{
 
 @font-face {
     font-family: 'digital';
-    src: url('digital-7\ \(mono\ italic\).ttf') format('truetype'); 
+    src: url('../Fonts/digital-7\ \(mono\ italic\).ttf') format('truetype'); 
 }
 #clock{
     font-family: 'digital';
     font-size: 8rem;
+    text-shadow: 2px 2px 2px rgba(43, 43, 43, 0.363);
     text-align:  center;
     color: white;
     backdrop-filter: blur(5px);
@@ -38,6 +39,7 @@ body{
 #date{
     font-family: 'digital';
     font-size: 4rem;
+    text-shadow: 2px 2px 2px rgba(29, 29, 29, 0.363);
     text-align:  center;
     color: white;
     backdrop-filter: blur(5px);
