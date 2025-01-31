@@ -32,6 +32,11 @@ function toStopwatch() {
     window.location.href = 'https://ansonjia.github.io/Clock-Stopwatch-Timer/Stopwatch/';
 }
 
+function toTimer(){
+    window.location.href = 'https://ansonjia.github.io/Clock-Stopwatch-Timer/Timer/';
+}
+
+
 function openNav() {
     document.getElementById("iconBar").style.width = "90px";
     document.getElementById("iconBar").style.border=  "0.5px solid white"; 
