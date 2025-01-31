@@ -90,18 +90,6 @@ body{
     }
 }
 
-@media (max-width: 500px) {
-    #clock{
-        font-size: 3.5rem;
-        width: 90%;
-        border-radius: 20px;
-    }
-    #date{
-        font-size: 1.5rem;
-        border-radius: 20px;
-        width: 70%;
-    }
-}
 
 button{
     background: transparent;
