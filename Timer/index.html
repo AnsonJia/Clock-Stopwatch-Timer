@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="iconBar" class="icon-bar">
+        <a href="#"><img src="../Menu/time-outline.svg" onclick="toClock()">Time</i></a>
+        <a href="#"><img src="../Menu/stopwatch-svgrepo-com.svg" onclick="toStopwatch()">Stopwatch</i></a>
+        <a class="active" href="#"><img src="../Menu/timer-outline.svg" onclick="toTimer()">Timer</i></a>
+    </div>
+
+    <button id="open" class="openbtn" onclick="toggleNav()">&#9776; </button>
+
+
+    <div id="container">
+        <div id="display">
+            00:00:00
+        </div>
+
+        <div id="controls">
+            <button id="startBtn" onclick="start()">Start</button>
+            <button id="stopBtn" onclick="stop()">Stop</button>
+            <button id="resetBtn" onclick="increase()">Increase</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
