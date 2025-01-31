@@ -44,9 +44,10 @@ body{
 
 #controls button{
     box-shadow: 2px 2px 2px rgba(53, 53, 53, 0.363);
-    font-size: 1.5rem;
-    font-family:fantasy;
-    text-shadow: 2px 2px 2px rgba(53, 53, 53, 0.363);
+    font-size: 1.8rem;
+    font-family:'digital';
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(70, 70, 70, 0.363);
     padding: 10px 20px;
     margin: 10px;
     min-width: 125px;
@@ -71,7 +72,7 @@ body{
         
     }
     #controls button{
-        font-size: 1rem;
+        font-size: 1.2rem;
         min-width: 100px;
         
     }
@@ -90,7 +91,7 @@ body{
         
     }
     #controls button{
-        font-size: 0.8rem;
+        font-size: 1rem;
         min-width: 80px;
         
     }
