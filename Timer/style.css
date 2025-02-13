@@ -32,7 +32,7 @@ body{
 }
 
 #display{
-    font-size: 8rem;
+    font-size: 15rem;
     font-family: 'digital';
     font-weight: 500;
     color: white;
@@ -42,10 +42,28 @@ body{
     transition: font-size 0.2s ease;
 }
 
+#time button{
+    box-shadow: 2px 2px 2px rgba(53, 53, 53, 0.363);
+    font-size: 2rem;
+    font-family:'digital';
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(53, 53, 53, 0.363);
+    padding: 10px 20px;
+    margin: 10px;
+    min-width: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: font-size 0.2s ease, width 0.5s ease, background-color 0.5s ease;
+    will-change: font-size;
+}
+
 #controls button{
     box-shadow: 2px 2px 2px rgba(53, 53, 53, 0.363);
-    font-size: 1.5rem;
-    font-family:fantasy;
+    font-size: 3rem;
+    font-family:'digital';
+    font-weight: bold;
     text-shadow: 2px 2px 2px rgba(53, 53, 53, 0.363);
     padding: 10px 20px;
     margin: 10px;
@@ -59,21 +77,47 @@ body{
     will-change: font-size, width;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
     #container{
         width: 80%;
         padding: 30px;
         border-radius: 40px;
     }
     #display{
-        font-size: 5rem;
+        font-size: 10rem;
         margin-bottom: 10px;
         
     }
     #controls button{
-        font-size: 1rem;
+        font-size: 2rem;
         min-width: 100px;
         
+    }
+    #time button{
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+@media (max-width: 700px) {
+    #container{
+        width: 80%;
+        padding: 30px;
+        border-radius: 40px;
+    }
+    #display{
+        font-size: 8rem;
+        margin-bottom: 10px;
+        
+    }
+    #controls button{
+        font-size: 2rem;
+        min-width: 100px;
+        
+    }
+    #time button{
+        font-size: 1.5rem;
     }
     
 }
@@ -85,14 +129,17 @@ body{
         border-radius: 30px;
     }
     #display{
-        font-size: 4rem;
+        font-size: 7rem;
         margin-bottom: 5px;
         
     }
     #controls button{
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         min-width: 80px;
         
+    }
+    #time button{
+        font-size: 1rem;
     }
     
 }
@@ -118,7 +165,19 @@ body{
     background-color: rgb(0, 69, 158);
 }
 
+#incr{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#incr:hover{
+    background-color: rgb(109, 109, 109);
+}
 
+#decr{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#decr:hover{
+    background-color: rgb(109, 109, 109);
+}
 
 #open{
     background: transparent;
