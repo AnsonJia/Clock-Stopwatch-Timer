@@ -89,12 +89,12 @@ body{
         
     }
     #controls button{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         min-width: 100px;
         
     }
     #time button{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
 }
@@ -112,7 +112,7 @@ body{
         
     }
     #controls button{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         min-width: 100px;
         
     }
@@ -134,12 +134,12 @@ body{
         
     }
     #controls button{
-        font-size: 1 rem;
+        font-size: 0.8 rem;
         min-width: 80px;
         
     }
     #time button{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
     
 }
