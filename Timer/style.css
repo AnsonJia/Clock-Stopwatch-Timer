@@ -79,22 +79,22 @@ body{
 
 @media (max-width: 1000px) {
     #container{
-        width: 80%;
+        width: 70%;
         padding: 30px;
         border-radius: 40px;
     }
     #display{
-        font-size: 10rem;
+        font-size: 8rem;
         margin-bottom: 10px;
         
     }
     #controls button{
-        font-size: 2rem;
+        font-size: 1.5rem;
         min-width: 100px;
         
     }
     #time button{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
 }
@@ -107,17 +107,17 @@ body{
         border-radius: 40px;
     }
     #display{
-        font-size: 8rem;
+        font-size: 7rem;
         margin-bottom: 10px;
         
     }
     #controls button{
-        font-size: 2rem;
+        font-size: 1.5rem;
         min-width: 100px;
         
     }
     #time button{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
 }
@@ -129,12 +129,12 @@ body{
         border-radius: 30px;
     }
     #display{
-        font-size: 7rem;
+        font-size: 6rem;
         margin-bottom: 5px;
         
     }
     #controls button{
-        font-size: 1.5rem;
+        font-size: 1 rem;
         min-width: 80px;
         
     }
