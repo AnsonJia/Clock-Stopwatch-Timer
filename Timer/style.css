@@ -133,12 +133,12 @@ body{
         
     }
     #controls button{
-        font-size: 0.8 rem;
+        font-size: 0.8rem;
         min-width: 80px;
         
     }
     #time button{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     
 }
